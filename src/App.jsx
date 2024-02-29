@@ -1,5 +1,13 @@
+import MainContainer from './components/main-container/MainContainer';
+import { GlobalStyles } from './styles/GlobalStyles';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<GlobalStyles />
+			<MainContainer />
+		</>
+	);
 };
 
 export default App;
